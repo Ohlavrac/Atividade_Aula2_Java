@@ -21,7 +21,7 @@ public class Vetor {
     }
 
     public void remover(int posicao) {
-        if (posicao > 0 && posicao <= aluno.length) {
+        if (posicao >= 0 && posicao <= aluno.length) {
             aluno[posicao] = null;
         }
     }
